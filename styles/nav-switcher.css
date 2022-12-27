@@ -1,0 +1,27 @@
+
+.aside.open
+{
+    transform:translateX(270px);
+    box-shadow:0px 5px 50px
+}
+.aside
+{
+    transition:all 0.3s ease;
+}
+.aside .nav-toggler.open
+{
+    left:230px;
+}
+
+@media (max-width:370px)
+{
+    .aside.open
+{
+    transform:translateX(240px);
+    box-shadow:0px 5px 50px
+}
+.aside .nav-toggler.open
+{
+    left:200px;
+}
+}
